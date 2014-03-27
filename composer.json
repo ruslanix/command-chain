@@ -13,6 +13,8 @@
 	],
 	"minimum-stability": "dev",
 	"autoload": {
-		"psr-0": { "Ruslanix\\CommandChain\\": "src/" }
+		"psr-0": {
+            "Ruslanix\\CommandChain": "src",
+		}
 	}
 }
