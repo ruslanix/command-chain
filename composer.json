@@ -12,9 +12,6 @@
 		}
 	],
 	"minimum-stability": "dev",
-	"require": {
-		"doctrine/common": "*"
-	},
 	"autoload": {
 		"psr-0": { "Ruslanix\\CommandChain\\": "src/" }
 	}
