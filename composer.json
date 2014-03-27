@@ -1,0 +1,25 @@
+{
+	"name": "ruslanix/command-chain",
+	"type": "library",
+	"description": "PHP implementation of Command chain pattern",
+	"keywords": ["command-chain"],
+	"homepage": "http://ruslanix.com",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "ruslanix",
+			"homepage": "http://ruslanix.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {
+		"doctrine/common": ">=1.*"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "3.7.*"
+	},
+	"autoload": {
+		"psr-0": { "Ruslanix\\CommandChain\\": "src/" }
+	},
+}
