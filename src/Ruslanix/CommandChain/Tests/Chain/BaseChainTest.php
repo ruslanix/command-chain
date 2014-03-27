@@ -11,8 +11,7 @@ class BaseChainTest extends \PHPUnit_Framework_TestCase
             'Ruslanix\CommandChain\Chain\BaseChain'
         );
         $mockChain->expects($this->once())
-            ->method('doProcess')
-            ->with('some');
+            ->method('doProcess');
 
         // when
         $mockChain->process();

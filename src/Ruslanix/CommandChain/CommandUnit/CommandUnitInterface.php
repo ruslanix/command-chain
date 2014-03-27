@@ -2,7 +2,7 @@
 
 namespace Ruslanix\CommandChain\CommandUnit;
 
-use Ruslanix\CommandChain\Container\ContextContainer;
+use Ruslanix\CommandChain\ContextContainer\ContextContainer;
 
 interface CommandUnitInterface
 {

@@ -4,7 +4,7 @@ namespace Ruslanix\CommandChain\Chain;
 
 use Doctrine\Common\Collections\ArrayCollection;
 
-use Ruslanix\CommandChain\Container\ContextContainer;
+use Ruslanix\CommandChain\ContextContainer\ContextContainer;
 use Ruslanix\CommandChain\CommandUnit\CommandUnitInterface;
 
 abstract class BaseChain implements ChainInterface
