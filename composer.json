@@ -14,10 +14,7 @@
 	"minimum-stability": "dev",
 	"autoload": {
 		"psr-0": {
-            "Ruslanix\\CommandChain\\Chain": "src/",
-			"Integrated\\Common\\Solr\\CommandUnit": "src/",
-            "Integrated\\Common\\Solr\\ContextContainer": "src/",
-            "Integrated\\Common\\Solr\\Tests": "src/"
+            "Ruslanix\\CommandChain": "src",
 		}
 	}
 }
